@@ -7,7 +7,7 @@ interface ProcessStepProps {
 
 export const ProcessStep = ({ stepNumber, title, description, icon }: ProcessStepProps) => {
   return (
-    <div className='first-box flex items-center gap-5 border-2 border-b-green border-opacity-20 rounded-[12px] p-5 md:p-8 md:gap-8' >
+    <div className='first-box flex items-center gap-5 border-2 border-b-green border-opacity-20 rounded-[12px] p-5 md:p-8 md:gap-8'     >
       <div className='left-box flex items-center justify-center'>
         <img src={icon} alt={`Step ${stepNumber} icon`} className="w-[80px] h-[80px] md:w-[100px] md:h-[100px]" />
       </div>
